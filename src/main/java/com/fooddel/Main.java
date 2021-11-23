@@ -28,7 +28,7 @@ public class Main {
         SpringApplication.run(Main.class, args);
 
     }
-    @Bean
+    /*@Bean
     InitializingBean sendDatabase(){
         return ()->{
 //            customerRepository.save(new Customer("ayushi","makhija","7869054251","narsinghpur","ayushi9ym.19@gmail.com","ayushi",false));
@@ -69,6 +69,6 @@ public class Main {
             menuRepository.save(new Menu("Matar Paneer","Delicious matar paneer","chbhbck","250","friday",f3));
             menuRepository.save(new Menu("Chole Bature","Delicious chole bature","chbhbck","230","saturday",f4));
         };
-    }
+    }*/
 }
 

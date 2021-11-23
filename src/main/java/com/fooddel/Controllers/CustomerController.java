@@ -34,7 +34,7 @@ public class CustomerController {
 
 
     @PostMapping("/createCustomer")
-    public Customer createCustomer( @RequestBody Customer customer){  //mapping the JSON Body tot he object directly
+    public Customer createCustomer( @RequestBody Customer customer){  //mapping the JSON Body to the object directly
         logger.info("customer created");
         return customerService.createCustomer(customer);
     }
